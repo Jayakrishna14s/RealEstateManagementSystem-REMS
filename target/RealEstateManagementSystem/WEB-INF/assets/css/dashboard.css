@@ -1,0 +1,38 @@
+.navbar > ul li:nth-child(4) a{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.navbar > ul li:nth-child(4) a{
+    border-bottom: 4px solid cornflowerblue;
+    padding: 0 0 8px 0 ;
+}
+
+main {
+    background-color: whitesmoke;
+
+    padding-top: 100px;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+main > div {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+
+}
+
+main  div > p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main  div > p:nth-child(2) {
+    font-size: 40px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
