@@ -1,0 +1,133 @@
+#profile {
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px cornflowerblue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 4fr 7fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.details{
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    overflow: scroll;
+    /*box-shadow: 0 0 10px 5px black;*/
+}
+
+.details > button {
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.History{
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+}
+
+.History ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.History > ul {
+    padding: 20px;
+}
+
+.History > ul > li {
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.History > ul > li > ul {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.History > ul > li > ul > li:nth-child(1){
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+
+
+.History > ul > li > ul > li:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.Available {
+    background-color: #bdffec !important;
+}
+
+.Sold {
+    background-color: #aaaaaa !important;
+}
+
+.History > ul > li > ul > li:nth-child(2){
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+
+
+.History > ul > li > ul > li:nth-child(3){
+    grid-row: 2/3;
+    grid-column: 2/4;
+    > input {
+        padding: 8px;
+        border-radius: 8px;
+        background-color: whitesmoke;
+    }
+}
+
+.History > ul > li > ul > li:nth-child(4){
+    grid-row: 2/3;
+    grid-column: 3/4;
+    > button {
+        padding: 8px;
+        border-radius: 8px;
+        background-color: whitesmoke;
+    }
+}
+
+
+.History > ul > li > ul > li:nth-child(5){
+    /*buyer*/
+    grid-row: 1/3;
+    grid-column: 4/5;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.statusImage {
+    width: 30px;
+    padding: 10px;
+    display: none;
+}
+
+/*[class^="_"] {*/
+/*    color: red;*/
+/*}*/
+
+
+.buyer {
+    padding: 10px;
+}

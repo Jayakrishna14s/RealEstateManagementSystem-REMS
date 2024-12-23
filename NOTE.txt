@@ -1,0 +1,25 @@
+<p><%=request.getAttribute("db")%></p>
+<a href="temp">Click me</a>
+
+
+
+//        RequestDispatcher dispatcher;
+//
+//        switch(request.getServletPath()) {
+//            case "/":
+//                dispatcher = request.getRequestDispatcher("/WEB-INF/views/index.jsp");
+//                break;
+//            case "/temp":
+//                dispatcher = request.getRequestDispatcher("/WEB-INF/views/temp.jsp");
+//                break;
+//            case "/404":
+//                dispatcher = request.getRequestDispatcher("/WEB-INF/views/404.jsp");
+//                break;
+//            default:
+//                response.sendRedirect(request.getContextPath() + "/404");
+//                return;
+//        }
+//        dispatcher.forward(request, response);
+
+
+@WebServlet(urlPatterns = {"/", "/temp"})

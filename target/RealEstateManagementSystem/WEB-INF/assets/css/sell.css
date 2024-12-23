@@ -1,0 +1,59 @@
+.navbar > ul li:nth-child(3) a{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.navbar > ul li:nth-child(3) a{
+    border-bottom: 4px solid cornflowerblue;
+    padding: 0 0 8px 0 ;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+
+th, td {
+    display: flex;
+    padding: 10px 200px 10px 200px;
+    text-align: left;
+    font-size: 15px;
+    background-color: white;
+}
+
+
+table ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+textarea {
+    background-color: #eeeeee;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+input[name="link"] {
+    width: 200px;
+    background-color: #eeeeee;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 450px;
+    height: 30px;
+}
+
+

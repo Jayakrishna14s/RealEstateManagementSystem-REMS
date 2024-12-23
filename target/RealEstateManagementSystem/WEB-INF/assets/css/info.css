@@ -1,0 +1,62 @@
+.navbar > ul li:nth-child(2) a{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.navbar > ul li:nth-child(2) a{
+    border-bottom: 4px solid cornflowerblue;
+    padding: 0 0 8px 0 ;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10px;
+    padding: 10px;
+    background-color: #aaa;
+}
+
+main > img {
+    width: 100%;
+    height: 100%;
+    grid-row: 1/3;
+    grid-column: 1/3;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+main > .description {
+    grid-row: 1/3;
+    grid-column: 3/4;
+}
+
+main > .primarydetails {
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+
+main > .contactdetails {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+main > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white ;
+}
+
+main > div p {
+    margin: 5px;
+}
+
+
+#status {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
