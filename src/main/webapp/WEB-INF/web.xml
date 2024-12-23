@@ -1,0 +1,138 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                             http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>Buy</servlet-name>
+    <servlet-class>com.realestate.Buy</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Buy</servlet-name>
+    <url-pattern>/buy</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.realestate.Login</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ContainsUsername</servlet-name>
+    <servlet-class>com.realestate.ContainsUsername</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ContainsUsername</servlet-name>
+    <url-pattern>/containsUsername</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Dashboard</servlet-name>
+    <servlet-class>com.realestate.Dashboard</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Dashboard</servlet-name>
+    <url-pattern>/dashboard</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>com.realestate.Home</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>Info</servlet-name>
+    <servlet-class>com.realestate.Info</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Info</servlet-name>
+    <url-pattern>/info</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.realestate.Logout</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Profile</servlet-name>
+    <servlet-class>com.realestate.Profile</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Profile</servlet-name>
+    <url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Sell</servlet-name>
+    <servlet-class>com.realestate.Sell</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Sell</servlet-name>
+    <url-pattern>/sell</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>Signin</servlet-name>
+    <servlet-class>com.realestate.Signin</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Signin</servlet-name>
+    <url-pattern>/signin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Signup</servlet-name>
+    <servlet-class>com.realestate.Signup</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Signup</servlet-name>
+    <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+    <servlet-name>UploadProperty</servlet-name>
+    <servlet-class>com.realestate.UploadProperty</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UploadProperty</servlet-name>
+    <url-pattern>/uploadProperty</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+

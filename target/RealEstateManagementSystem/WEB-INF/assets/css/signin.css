@@ -1,0 +1,71 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 40px auto;
+}
+
+.form-toggle {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.form-toggle button {
+    width: 50%;
+    height: 100%;
+    padding: 10px 20px;
+    border: none;
+    background: #ccc;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-toggle button.active {
+    background: #007bff;
+    color: #fff;
+}
+
+.form {
+    display: none;
+}
+
+.form.active {
+    display: block;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form button {
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form button:hover {
+    background: #0056b3;
+}
+
+button[type="submit"] {
+    margin-top:40px;
+}
